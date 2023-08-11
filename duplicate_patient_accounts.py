@@ -3,10 +3,10 @@ import mysql.connector
 def update_table(table_name, old_value, new_value):
     try:
         connection = mysql.connector.connect(
-            host='18.130.135.78',
-            user='DB_Portal_Dev',
-            password='CTq8NqPtWIm.O2u1GMSx!dYP',
-            database='puk-dev'
+            host='xxx',
+            user='xxx',
+            password='xxx',
+            database='xxx'
         )
 
         cursor = connection.cursor()
