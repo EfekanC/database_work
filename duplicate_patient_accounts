@@ -1,0 +1,98 @@
+UPDATE notes SET notes.patient = newValue 
+WHERE notes.patient = oldValue; 
+
+UPDATE prescriptions SET prescriptions.patient = newValue 
+WHERE prescriptions.patient = oldValue; 
+
+UPDATE tasks SET tasks.patient = newValue 
+WHERE tasks.patient = oldValue; 
+
+UPDATE appointments SET appointments.patient = newValue 
+WHERE appointments.patient = oldValue; 
+
+UPDATE invoices SET invoices.patient = newValue 
+WHERE invoices.patient = oldValue; 
+
+UPDATE invoice_items SET invoice_items.patient = newValue 
+WHERE invoice_items.patient = oldValue; 
+
+UPDATE formcollections SET formcollections.patient = newValue 
+WHERE formcollections.patient = oldValue; 
+
+UPDATE adultadhdinfreport1of2 SET adultadhdinfreport1of2.patient = newValue 
+WHERE adultadhdinfreport1of2.patient = oldValue; 
+ 
+UPDATE adultadhdinfreport2of2 SET adultadhdinfreport2of2.patient = newValue 
+WHERE adultadhdinfreport2of2.patient = oldValue; 
+
+UPDATE adultadhdselfreport1of4 SET adultadhdselfreport1of4.patient = newValue 
+WHERE adultadhdselfreport1of4.patient = oldValue; 
+
+UPDATE adultadhdselfreport2of4 SET adultadhdselfreport2of4.patient = newValue 
+WHERE adultadhdselfreport2of4.patient = oldValue; 
+
+UPDATE adultadhdselfreport3of4 SET adultadhdselfreport3of4.patient = newValue 
+WHERE adultadhdselfreport3of4.patient = oldValue; 
+
+UPDATE adultadhdselfreport4of4 SET adultadhdselfreport4of4.patient = newValue 
+WHERE adultadhdselfreport4of4.patient = oldValue; 
+
+UPDATE adhdcardiac SET adhdcardiac.patient = newValue 
+WHERE adhdcardiac.patient = oldValue; 
+
+UPDATE adhdxmonitoring SET adhdxmonitoring.patient = newValue 
+WHERE adhdxmonitoring.patient = oldValue; 
+
+UPDATE bloodpressurewtht SET bloodpressurewtht.patient = newValue 
+WHERE bloodpressurewtht.patient = oldValue; 
+
+UPDATE adhd12mfu SET adhd12mfu.patient = newValue 
+WHERE adhd12mfu.patient = oldValue; 
+
+UPDATE adultadhdinfreports SET adultadhdinfreports.patient = newValue 
+WHERE adultadhdinfreports.patient = oldValue; 
+
+UPDATE adultadhdselfreports SET adultadhdselfreports.patient = newValue 
+WHERE adultadhdselfreports.patient = oldValue; 
+
+UPDATE asrs SET asrs.patient = newValue 
+WHERE asrs.patient = oldValue; 
+
+UPDATE camhsdevelopmentalhistoryform SET camhsdevelopmentalhistoryform.patient = newValue 
+WHERE camhsdevelopmentalhistoryform.patient = oldValue; 
+
+UPDATE camhsreportonschoolfunctioning SET camhsreportonschoolfunctioning.patient = newValue 
+WHERE camhsreportonschoolfunctioning.patient = oldValue; 
+
+UPDATE cf2_gad7 SET cf2_gad7.patient = newValue 
+WHERE cf2_gad7.patient = oldValue; 
+
+UPDATE cf2_phq9 SET cf2_phq9.patient = newValue 
+WHERE cf2_phq9.patient = oldValue; 
+
+UPDATE cf2_pretitration SET cf2_pretitration.patient = newValue 
+WHERE cf2_pretitration.patient = oldValue; 
+
+UPDATE rcadschild SET rcadschild.patient = newValue 
+WHERE rcadschild.patient = oldValue; 
+
+UPDATE rcadsparent SET rcadsparent.patient = newValue 
+WHERE rcadsparent.patient = oldValue; 
+
+UPDATE sdqparent SET sdqparent.patient = newValue 
+WHERE sdqparent.patient = oldValue; 
+
+UPDATE sdqself SET sdqself.patient = newValue 
+WHERE sdqself.patient = oldValue; 
+
+UPDATE sdqteacher SET sdqteacher.patient = newValue 
+WHERE sdqteacher.patient = oldValue; 
+
+UPDATE snapiv26parent SET snapiv26parent.patient = newValue 
+WHERE snapiv26parent.patient = oldValue; 
+
+UPDATE snapiv26teacher SET snapiv26teacher.patient = newValue 
+WHERE snapiv26teacher.patient = oldValue; 
+
+UPDATE users SET users.blocked = 1 
+WHERE users.patient = oldValue;  
